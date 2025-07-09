@@ -38,8 +38,8 @@ Functions for integrating MetaTrader 5 and Python
 | [terminal_info](https://www.mql5.com/en/docs/python_metatrader5/mt5terminalinfo_py) | Get status and parameters of the connected MetaTrader 5 terminal |
 | [symbols_total](https://www.mql5.com/en/docs/python_metatrader5/mt5symbolstotal_py) | Get the number of all financial instruments in the MetaTrader 5 terminal |
 | [symbols_get](https://www.mql5.com/en/docs/python_metatrader5/mt5symbolsget_py) | Get all financial instruments from the MetaTrader 5 terminal |
-| [symbol_info](https://www.mql5.com/en/docs/python_metatrader5/mt5symbolsinfo_py) | Get data on the specified financial instrument |
-| [symbol_info_tick](https://www.mql5.com/en/docs/python_metatrader5/mt5symbolsinfotick_py) | Get the last tick for the specified financial instrument |
+| [symbol_info](https://www.mql5.com/en/docs/python_metatrader5/mt5symbolinfo_py) | Get data on the specified financial instrument |
+| [symbol_info_tick](https://www.mql5.com/en/docs/python_metatrader5/mt5symbolinfotick_py) | Get the last tick for the specified financial instrument |
 | [symbol_select](https://www.mql5.com/en/docs/python_metatrader5/mt5symbolselect_py) |  Select a symbol in the [MarketWatch](https://www.metatrader5.com/en/terminal/help/trading/market_watch) window or remove a symbol from the window |
 | [market_book_add](https://www.mql5.com/en/docs/python_metatrader5/mt5marketbookadd_py) | Subscribes the MetaTrader 5 terminal to the Market Depth change events for a specified symbol |
 | [market_book_get](https://www.mql5.com/en/docs/python_metatrader5/mt5marketbookget_py) | Returns a tuple from BookInfo featuring Market Depth entries for the specified symbol |
@@ -49,7 +49,7 @@ Functions for integrating MetaTrader 5 and Python
 | [copy_rates_range](https://www.mql5.com/en/docs/python_metatrader5/mt5copyratesrange_py) | Get bars in the specified date range from the MetaTrader 5 terminal |
 | [copy_ticks_from](https://www.mql5.com/en/docs/python_metatrader5/mt5copyticksfrom_py) | Get ticks from the MetaTrader 5 terminal starting from the specified date |
 | [copy_ticks_range](https://www.mql5.com/en/docs/python_metatrader5/mt5copyticksrange_py) | Get ticks for the specified date range from the MetaTrader 5 terminal |
-| [orders_total](https://www.mql5.com/en/docs/python_metatrader5/mt5orderstotal_py) | Get the number of active orders. |
+| [orders_total](https://www.mql5.com/en/docs/python_metatrader5/mt5orderstotal_py) | Get the number of active orders |
 | [orders_get](https://www.mql5.com/en/docs/python_metatrader5/mt5ordersget_py) | Get active orders with the ability to filter by symbol or ticket |
 | [order_calc_margin](https://www.mql5.com/en/docs/python_metatrader5/mt5ordercalcmargin_py) | Return margin in the account currency to perform a specified trading operation |
 | [order_calc_profit](https://www.mql5.com/en/docs/python_metatrader5/mt5ordercalcprofit_py) | Return profit in the account currency for a specified trading operation |

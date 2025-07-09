@@ -7,13 +7,20 @@ MetaTrader package for Python is designed for convenient and fast obtaining of e
 MetaTrader Python 程序包旨在通过处理器间通信直接从 MetaTrader 5 终端便捷快速地获取交易所数据。通过这种方式接收的数据可进一步用于统计计算和机器学习。
 
 Installing the package from the command line:
-从命令行安装软件包：
+从命令行安装 MetaTrader5 软件包：
 ```
 pip install MetaTrader5
 ```
 
-Updating the package from the command line:
-从命令行更新包：
+Or updating the package from the command line:
+或从命令行更新 MetaTrader5 软件包：
 ```
 pip install --upgrade MetaTrader5
+```
+
+Add matplotlib and pandas packages
+添加 matplotlib 和 pandas 包
+```
+pip install matplotlib
+pip install pandas
 ```

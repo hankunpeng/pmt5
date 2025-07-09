@@ -41,9 +41,9 @@ Functions for integrating MetaTrader 5 and Python
 | [symbol_info](https://www.mql5.com/en/docs/python_metatrader5/mt5symbolsinfo_py) | Get data on the specified financial instrument |
 | [symbol_info_tick](https://www.mql5.com/en/docs/python_metatrader5/mt5symbolsinfotick_py) | Get the last tick for the specified financial instrument |
 | [symbol_select](https://www.mql5.com/en/docs/python_metatrader5/mt5symbolselect_py) |  Select a symbol in the [MarketWatch](https://www.metatrader5.com/en/terminal/help/trading/market_watch) window or remove a symbol from the window |
-| [market_book_add](https://www.mql5.com/en/docs/python_metatrader5/mt5marketbookadd_py) | Subscribes the MetaTrader 5 terminal to the Market Depth change events for = a specified symbol |
-| [market_book_get](https://www.mql5.com/en/docs/python_metatrader5/mt5marketbookget_py) | Returns a tuple from BookInfo featuring Market Depth entries for the specif= ied symbol |
-| [market_book_release](https://www.mql5.com/en/docs/python_metatrader5/mt5marketbookrelease_py) | Cancels subscription of the MetaTrader 5 terminal to the Market Depth chang= e events for a specified symbol |
+| [market_book_add](https://www.mql5.com/en/docs/python_metatrader5/mt5marketbookadd_py) | Subscribes the MetaTrader 5 terminal to the Market Depth change events for a specified symbol |
+| [market_book_get](https://www.mql5.com/en/docs/python_metatrader5/mt5marketbookget_py) | Returns a tuple from BookInfo featuring Market Depth entries for the specified symbol |
+| [market_book_release](https://www.mql5.com/en/docs/python_metatrader5/mt5marketbookrelease_py) | Cancels subscription of the MetaTrader 5 terminal to the Market Depth change events for a specified symbol |
 | [copy_rates_from](https://www.mql5.com/en/docs/python_metatrader5/mt5copyratesfrom_py) | Get bars from the MetaTrader 5 terminal starting from the specified date |
 | [copy_rates_from_pos](https://www.mql5.com/en/docs/python_metatrader5/mt5copyratesfrompos_py) | Get bars from the MetaTrader 5 terminal starting from the specified index |
 | [copy_rates_range](https://www.mql5.com/en/docs/python_metatrader5/mt5copyratesrange_py) | Get bars in the specified date range from the MetaTrader 5 terminal |
@@ -51,7 +51,7 @@ Functions for integrating MetaTrader 5 and Python
 | [copy_ticks_range](https://www.mql5.com/en/docs/python_metatrader5/mt5copyticksrange_py) | Get ticks for the specified date range from the MetaTrader 5 terminal |
 | [orders_total](https://www.mql5.com/en/docs/python_metatrader5/mt5orderstotal_py) | Get the number of active orders. |
 | [orders_get](https://www.mql5.com/en/docs/python_metatrader5/mt5ordersget_py) | Get active orders with the ability to filter by symbol or ticket |
-| [order_calc_margin](https://www.mql5.com/en/docs/python_metatrader5/mt5ordercalcmargin_py) | Return margin in the account currency to perform a specified trading operat= ion |
+| [order_calc_margin](https://www.mql5.com/en/docs/python_metatrader5/mt5ordercalcmargin_py) | Return margin in the account currency to perform a specified trading operation |
 | [order_calc_profit](https://www.mql5.com/en/docs/python_metatrader5/mt5ordercalcprofit_py) | Return profit in the account currency for a specified trading operation |
 | [order_check](https://www.mql5.com/en/docs/python_metatrader5/mt5ordercheck_py) | Check funds sufficiency for performing a required [trading operation](https://www.mql5.com/en/docs/constants/tradingconstants/enum_trade_request_actions) |
 | [order_send](https://www.mql5.com/en/docs/python_metatrader5/mt5ordersend_py) | Send a [request](https://www.mql5.com/en/docs/constants/structures/mqltraderequest) to perform a trading operation |

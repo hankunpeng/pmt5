@@ -38,7 +38,6 @@ def save_to_csv(df, path):
     """将 DataFrame 保存到 CSV 文件"""
     if os.path.exists(path):
         df.to_csv(path, mode='a', header=False, index=False)  # 追加模式
-    """若文件不存在则写入表头"""
     else:
         df.to_csv(path, mode='w', header=True, index=False)  # 新建文件
 
